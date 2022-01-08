@@ -19,6 +19,11 @@ docker ps -aq
 docker stop $(docker ps -aq)
 
 
+## Setup mongo client
+
+<b> docker run -d -p 3000:3000 mongoclient/mongoclient </b>
+
+
 ## Mongo commands in shell 
 
 mongo <br />
