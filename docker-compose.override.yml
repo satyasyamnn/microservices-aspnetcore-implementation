@@ -57,6 +57,14 @@ services:
     depends_on:
       - discountdb
 
+  discount.grpc:
+    container_name: discount.grpc
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "DiscountDataBaseSettings:Server=discountdb;Port=5432;Database=DiscountDB;User Id=admin;Password=admin1234;"
+    ports:
+      - "8003:80"
+
   pgadmin:
     container_name: pagadmin
     environment:
@@ -68,11 +76,5 @@ services:
     volumes:
       - pgadmin_data:/root/.pgadmin
 
-  discount.grpc:
-    container_name: discount.grpc
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - "DiscountDataBaseSettings:Server=discountdb;Port=5432;Database=DiscountDB;User Id=admin;Password=admin1234;"
-    ports:
-      - "8003:80"
+ 
 

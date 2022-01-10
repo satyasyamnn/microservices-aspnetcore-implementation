@@ -1,4 +1,5 @@
 using Basket.Api.Repositories;
+using Basket.Api.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -6,6 +7,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using StackExchange.Redis;
+using System;
+using static Discount.Grpc.Protos.DiscountService;
 
 namespace Basket.Api
 {
@@ -28,7 +31,12 @@ namespace Basket.Api
 
             services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect(Configuration.GetValue<string>("CacheSettings:ConnectionString")));
             services.AddTransient<IBasketRepository, BasketRepository>();
-            
+
+            services.AddGrpcClient<DiscountServiceClient>(options => {
+                options.Address = new Uri(Configuration.GetValue<string>("ServiceUri:DiscountGrpcUri"));
+            });
+            services.AddScoped<ICouponGrpcService, CouponGrpcService>();
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
