@@ -32,7 +32,8 @@ namespace Basket.Api
             services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect(Configuration.GetValue<string>("CacheSettings:ConnectionString")));
             services.AddTransient<IBasketRepository, BasketRepository>();
 
-            services.AddGrpcClient<DiscountServiceClient>(options => {
+            services.AddGrpcClient<DiscountServiceClient>(options =>
+            {
                 options.Address = new Uri(Configuration.GetValue<string>("ServiceUri:DiscountGrpcUri"));
             });
             services.AddScoped<ICouponGrpcService, CouponGrpcService>();

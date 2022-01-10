@@ -4,7 +4,6 @@ using Basket.Api.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using static Discount.Grpc.Protos.DiscountService;
 
 namespace Basket.Api.Controllers
 {

@@ -24,7 +24,7 @@ namespace Basket.Api.Repositories
             else
             {
                 ShoppingCart cart = new ShoppingCart(userName);
-                foreach(RedisValue item in items)
+                foreach (RedisValue item in items)
                 {
                     ShoppingCartItem itemToAdd = JsonSerializer.Deserialize<ShoppingCartItem>(item.ToString());
                     cart.Items.Add(itemToAdd);

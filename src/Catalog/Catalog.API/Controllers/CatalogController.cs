@@ -26,7 +26,7 @@ namespace Catalog.API.Controllers
         public async Task<IActionResult> GetProducts()
         {
             _logger.LogInformation("Fetching all products");
-            IEnumerable<Product> products =  await _productRepository.GetProducts();
+            IEnumerable<Product> products = await _productRepository.GetProducts();
             return Ok(products);
         }
 
