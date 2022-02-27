@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T11:46:15.977Z" agent="5.0 (Windows)" etag="t4D4jqHAMEMvBv5hhkTv" version="16.6.4" type="github" pages="2"><diagram id="YfEi1q6KJIcqF8NLo4rr" name="Sub Domains">3ZjLctowFIafhiUzloSpWSaQFtrQoSWXtjthKbYmtsTI4panr4xlsJCZ0AYKzQr5HN38/b+PjBuomy4/STyNh4LQpAE9smygXgNC4KFA/+SRVRHxoQlEkhHTaRsYsxdajjTRGSM0szoqIRLFpnYwFJzTUFkxLKVY2N2eRGKvOsURdQLjECdu9JERFRfRwPe28T5lUVyuDDyTSXHZ2QSyGBOxqITQTQN1pRCqaKXLLk1yeCWXYtzHPdnNxiTl6pAB/eeXcDB4vPvW7NwO0Y/7Nsr6TTPLHCczc8MN2E70fNeEzXUzypsjKchMs80XKJITWebKiF63MqJmkiHmmlWab3bPkDUktSrJSzHjhOabBzq9iJmi4ykO8+xCe03HYpUmJm1ug0pFl3v5gA11bVcqUqrkSncxAxBoFUOMU0ELFteLre6gFDOuaN7yjd2M1aLN1Fs1dMMI8gfiQEecAZ/ruxHrbVeBnhkdCJCFDnaAgw76dei8E6FDh/j6gXIi5Lu3tW9p03KlqXf1EaR5+Pwl/PV1xJu9SRh9bwfidvKzpuSMZjKMcabL/IW5GtiuLs+ys6FzC0J3lik9ubwscrueqykH/xbcQeVgrA/97OAHX//iNEfHJ9n0/ygE9vl2fjsHh6hyh5d/rcmdpFhdsCS7FaYk/ZoiwD9Zca57IXwLpSeWJF2R6GMW9bjg9Ejg2tD2sgsOBkENuOBk4NzafEVSxh16+qaVjShTUjzTHUg13HDCIq4vQw1JV3x0nSNk+q/KlUmkjJB8mVpNtqp5x9GgY9d44LlFvl3jXXQyBeqK/AVa1w9s6wK3DMMOrPHu6ci1DinE1be0N7wwm1PWc8/L1yd7r49S8MG2RNu1xJEeJX25/eKwzlW+26Cb3w==</diagram><diagram id="jfk80qz_vTWu0UIgSuGQ" name="Page-2">ldFBD4IgFADgX8OxTSGdZ61sbZ2sdWwkJDT0OaRp/fp0Ysa61An4eO8BD0SSsks1rcUeGFcIe6xDZIUw9j0S9cMgj1ECbKHQktmgGTL55FOm1btkvHECDYAysnYxh6riuXGMag2tG3YF5Z5a04J/QZZT9a0nyYwYNQq82bdcFmI62ffsTkmnYAuNoAzaDyJrRBINYMZZ2SVcDc2b+hLGzS0NhS/q5TGIz1jvLofFWGzzT8r7CZpX5tfS/WS+Wr9wPpisXw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-27T11:47:25.930Z" agent="5.0 (Windows)" etag="OEiWLX7q-dB-z7BHlyAS" version="16.6.4" type="github" pages="2">
+  <diagram id="YfEi1q6KJIcqF8NLo4rr" name="Sub Domains">
+    <mxGraphModel dx="1038" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HkzcIIWTQ-9LM3XU63sH-1" value="&lt;div&gt;Product &lt;br&gt;&lt;/div&gt;&lt;div&gt;Management&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="314" y="142" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HkzcIIWTQ-9LM3XU63sH-2" value="Inventory Management" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="183" y="291" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HkzcIIWTQ-9LM3XU63sH-3" value="&lt;div&gt;Vendor &lt;br&gt;&lt;/div&gt;&lt;div&gt;Management&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="315" y="41" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VJKcZNPn-DbcgR68oLbY-1" value="Purchases Management" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="181" y="238" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VJKcZNPn-DbcgR68oLbY-2" value="Customer Management" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="315" y="91" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VJKcZNPn-DbcgR68oLbY-3" value="&lt;div&gt;Sales&lt;/div&gt;&lt;div&gt;&amp;nbsp;Management&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="314" y="238" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VJKcZNPn-DbcgR68oLbY-8" value="&lt;div&gt;Tax&lt;/div&gt;&lt;div&gt;&amp;nbsp;Treatment&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="181" y="40" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VJKcZNPn-DbcgR68oLbY-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="162" y="20" width="288" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="VJKcZNPn-DbcgR68oLbY-12" value="Admin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="95" y="101" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VJKcZNPn-DbcgR68oLbY-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="158" y="218" width="292" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VJKcZNPn-DbcgR68oLbY-14" value="&lt;div&gt;Purchases &lt;br&gt;&lt;/div&gt;&lt;div&gt;Sales Management&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="87" y="268" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jfk80qz_vTWu0UIgSuGQ" name="Page-2">
+    <mxGraphModel dx="1038" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="6BsjG6h1hp4U5B_2rJbT-0" />
+        <mxCell id="6BsjG6h1hp4U5B_2rJbT-1" parent="6BsjG6h1hp4U5B_2rJbT-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
